@@ -1,0 +1,13 @@
+  .container{
+      display: flex;
+      justify-content: space-between;
+      margin:20px; 
+  }
+  .blogPost{
+      width: 70%;
+      background: #fff;
+  }
+  .slideBar{
+      width: 25%;
+      background: #fff;
+  }
