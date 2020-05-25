@@ -1,4 +1,50 @@
-.slideBar{
-    width: 25%;
-    background: #fff;
+.slideBarContainer{
+    width: 27%;
+    padding-top: 10px;
 } 
+.cardHeader{
+    font-size: 15px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    color: #565673;
+}
+.profileImageContainer{
+     width: 100%;
+     padding: 0 70px;
+     box-sizing: border-box;
+}
+.profileImageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px 0;
+}
+.profile{
+    font-size: 14px;
+    font-weight: 300;
+    color: #565673;
+}
+.cardBody{
+    padding-left: 10px ;
+}
+.recentPosts{
+    padding: 20px 10px;
+}
+.recentPost{
+    border-bottom: 1px solid #eee ;
+    margin-bottom: 10px;
+}
+.recentPost h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+.recentPost span{
+    font-weight: 300;
+    font-size: 10px;
+    color: #6c6c6c;
+}

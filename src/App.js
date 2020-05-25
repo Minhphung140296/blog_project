@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from "./Containers/Home";
 import Hero from "./Components/Hero";
@@ -16,7 +15,7 @@ function App() {
         <Hero />
         <Route path="/Home" exact component={Home} />
         <Route path="/contact-us" component={ContactUS} />
-        <Route path="/post" component={Post} />
+        <Route path="/post/:postId" component={Post} />
         <Route path="/about-us" component={AboutUS} />
       </div>
     </Router>
